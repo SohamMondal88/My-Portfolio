@@ -62,6 +62,7 @@
             --github-color: #6e5494;
             --instagram-color: #e1306c;
             --twitter-color: #1da1f2;
+            --whatsapp-color: #25D366;
 
   /* Re-defining existing variables for clarity */
   --glass: rgba(255, 255, 255, 0.1);
@@ -1041,6 +1042,7 @@
 .github-link:hover::before { background: var(--github-color); }
 .instagram-link:hover::before { background: var(--instagram-color); }
 .twitter-link:hover::before { background: var(--twitter-color); }
+.whatsapp-link:hover::before { background: var(--whatsapp-color); }
 
 .contact-link:hover .contact-icon {
     transform: scale(1.1); /* Scale the icon slightly on hover */
